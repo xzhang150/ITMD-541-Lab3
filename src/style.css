@@ -1,0 +1,37 @@
+#tip-form {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="range"] {
+    flex: 1;
+}
+
+#tip-value {
+    margin-left: 10px;
+}
+
+input[type="text"][disabled],
+input[type="number"][disabled] {
+    background-color: #e9e9e9;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
